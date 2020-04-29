@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 
 export default class ImageList extends Component {
+    
+    handleChange = (e) => {
+        this.setState({ selected: e.target.value});
+    };
+
     render() {
         return (
             <>
-                
-
                 <section> 
-                    <select> 
+                    <select onChange={this.handleChange}> 
                         <option value="narwhal">Narwhal</option>
                         <option value="rhino">Rhino</option>
                         <option value="unicorn">Unicorn</option>
@@ -22,6 +25,6 @@ export default class ImageList extends Component {
                     </select>
                 </section>
             </>
-        )
+        );
     }
 }

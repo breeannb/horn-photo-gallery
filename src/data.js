@@ -105,14 +105,14 @@ const images = [
     },
     {
       url:
-        "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuoDOSck1h3VssChSK4ZTfKJd0X_Yt8TrKCkO96bhoFar9T673&usqp=CAU",
       title: "Mouflon",
       description: "Those horns though",
       keyword: "mouflon",
       horns: 2
     },
     {
-      url: "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/addax.jpg",
+      url: "https://cdn.britannica.com/48/215948-050-A70D328C.jpg",
       title: "Addax",
       description:
         "This guy is basically extinct but survives well in captivity, so they're frequently found in zoos",
@@ -121,7 +121,7 @@ const images = [
     },
     {
       url:
-        "https://cbsnews3.cbsistatic.com/hub/i/r/2013/03/05/5b414225-a645-11e2-a3f0-029118418759/thumbnail/620x350/2d4cf24685b45c22912e64d2004fec8d/Baby_Mouflon_Wild_Sheep.jpg",
+        "https://live.staticflickr.com/7626/16884540380_c094042228_b.jpg",
       title: "Baby mouflon",
       description: "The cuteness that is a baby mouflon asleep",
       keyword: "mouflon",
@@ -129,7 +129,7 @@ const images = [
     },
     {
       url:
-        "https://cdn.modernfarmer.com/wp-content/uploads/2014/08/chameleon.jpg",
+        "https://www.chameleoncaremanual.com/images/jackson-chameleon.jpg",
       title: "Happy Jackson's Chameleon",
       description: "These are really common in Hawaii",
       keyword: "chameleon",
