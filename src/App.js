@@ -10,13 +10,16 @@ export default class App extends Component {
   //intialize state to null 
   state = { selected: null }; 
 
+  handleChange = (e) => {
+    this.setState({ selected: e.target.value});
+};
+
   render() {
     return (
       <>
       <div>
         <Header />
-        <ImageList />
-        {/* <ImageItem hornedbeing={this.props.hornedbeing}/> */}
+        <ImageList myCallBackHandleChange={this.handleChange}/>
       </div>
 
       <section>

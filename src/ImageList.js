@@ -2,15 +2,14 @@ import React, { Component } from 'react'
 
 export default class ImageList extends Component {
     
-    handleChange = (e) => {
-        this.setState({ selected: e.target.value});
-    };
+
 
     render() {
         return (
             <>
                 <section> 
-                    <select onChange={this.handleChange}> 
+                    <select onChange={this.props.myCallBackHandleChange}> 
+                        <option value="" defaultValue>All Types</option>
                         <option value="narwhal">Narwhal</option>
                         <option value="rhino">Rhino</option>
                         <option value="unicorn">Unicorn</option>
