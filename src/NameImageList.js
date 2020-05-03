@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
 
-export default class ImageList extends Component {
-    
-
+export default class NameImageList extends Component {
 
     render() {
         return (
             <>
-                <section> 
-                    <select onChange={this.props.myCallBackHandleChange}> 
+                <section className="image-list"> 
+                    <select onChange={this.props.myNameCallBackHandleChange}> 
                         <option value="" defaultValue>All Types</option>
                         <option value="narwhal">Narwhal</option>
                         <option value="rhino">Rhino</option>
@@ -22,6 +20,7 @@ export default class ImageList extends Component {
                         <option value="lizard">Lizard</option>
                         <option value="dragon">Dragon</option>
                     </select>
+
                 </section>
             </>
         );
